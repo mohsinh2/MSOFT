@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="html1" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THIS WEBSITE IS VERY GOOD WEB.THIS IS MY PERSONAL WEBSITE">
+    <link class="icon" rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>MUHAMMAD MOHSIN-MY PERSONAL WEBSITE</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="navlist v-class">
+            <div class="logo"><a href="file:///D:/websites/mohsin/index.html"><img src="images/moiz321.jpg" alt="logo"></a></div>
+            <li><a href="file:///D:/websites/mohsin/index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>           
+        </ul>
+        <div class="rightnav"></div>
+        <input id="search" type="text" placeholder="Search..." class="search">      
+            <svg class="svg"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-purple-700 dark:text-purple-300 cursor-pointer text-2xl absolute right-3 md:right-12 }" height="1.9em" width="5em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg>
+        
+        <script>
+        function search() {
+            var searchInput = document.getElementById('search').value;
+            var searchResults = document.getElementById('services');
+        
+            // Implement your search logic here
+            // For demonstration purposes, just displaying the search query
+            searchResults.innerHTML = 'Search Results: ' + searchInput;
+        }
+        </script>
+        
+        <div id="burger" class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <script>
+        const burger = document.querySelector('.burger');
+        const navbar = document.querySelector('.navbar');
+        const rightnav = document.querySelector('.rightnav');
+        const navlist = document.querySelector('.navlist');
+
+        burger.addEventListener('click', () => {
+            rightnav.classList.toggle('v-class');
+            navlist.classList.toggle('v-class');
+            navbar.classList.toggle('h-nav');
+        });
+    </script>
+    <section class="background firstsection one">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="textbig">This website is created by Mohsin</p>
+                <p class="textsmall">(www.mohsin.com) This website is created by Mohsin</p>
+                <div class="button">
+                    <a href="https://www.facebook.com/idaranorulharmain/">
+                        <button class="btn">Follow</button>
+                        <button class="btn">Like Page</button>
+                </div>
+                </a>
+            </div>
+            <div class="secondhalf">
+                <img src="images/moiz321.jpg" alt="Picture">
+            </div>
+        </div>
+    </section>
+
+    <section class="secright" id="about" >
+        <div class="paras">
+            <p class="sectiontag textbig">MY SELF</p>
+            <p class="sectionsubtag textsmall">Hello I am Mohsin. Welcome to my personal blog, where I'll be sharing a
+                glimpse into my life, my experiences, and what makes me who I am. This is your passport to understanding
+                the world through my eyes. So, grab a cup of coffee and join me on this journey of
+                self-discovery.Welcome to my world, a realm of experiences, dreams, and passions. Today, I invite you to
+                embark on a journey through the chapters of my life, as I share the tapestry of my experiences.
+                </p>
+                </div>
+        
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,a book in table" alt="photo" class="imgfluid">
+        </div>
+    </section>
+
+    <section class="secleft">
+
+        <div class="paras2">
+            <p class="sectiontag textbig">ABOUT</p>
+            <p class="sectionsubtag textsmall">Creating and maintaining this website is also a journey of personal
+                growth and continual learning. It challenges me to explore new avenues, develop my skills, and stay
+                up-to-date with the latest trends in.It's an opportunity for me to
+                evolve and adapt, much like the subjects I write about.One of the primary reasons I've created this website.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,mountain" alt="photo" class="imgriver">
+        </div>
+    </section>
+
+    <section class="secright"  id="services">
+        <div class="paras3">
+            <div class="moon">
+                <p class="sectiontag textbig">SERVICES</p>
+            </div>
+            <p class="sectionsubtag textsmall">Hospitality: Pakistanis are renowned for their warm and welcoming nature.
+                Guests are treated with great respect, and it's customary to offer food and hospitality to visitors.
+                </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" alt="photo" class="imgsea">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2 class="text-center">CONTACT US</h2>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="Enter your name:">
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone:">
+            <input type="text" name="email" id="email" placeholder="Enter your email:">
+        </div>
+        <a href="indet.html">
+        <img src="images/submit.jpg" alt="Submit" class="submitbtn">
+    </a>
+    <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">&raquo; Top</button>
+    </section>
+
+    <footer class="copyright">
+
+              <p class="text-footer">
+                    Copyright &copy; 2027 - <a class="www" href="#home"> WWW.Mohsin.COM </a>- ALL RIGHTS RESERVED
+                </p>      
+        
+    </footer>
+    
+    <script>document.addEventListener("DOMContentLoaded", function () {
+        // Show/hide the scroll to top button based on scroll position
+        window.onscroll = function () {
+          scrollFunction();
+        };
+      });
+      
+      function scrollFunction() {
+        var scrollButton = document.getElementById("scrollBtn");
+      
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollButton.style.display = "block";
+        } else {
+          scrollButton.style.display = "none";
+        }
+      }
+      
+      function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+</body>
+
+</html>
